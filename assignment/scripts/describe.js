@@ -27,9 +27,10 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called name and set the value to 'Dane' as a string.
-// Then we create an if statement testing to see if the value of name is equal to Mary
+// Then we create an if statement testing to see if the value of name is equal to 'Mary'.
 // If name is equal to 'Mary' we console.log 'Hi, Mary!'
 // If name is not equal to 'Mary' we console.log 'How do you do?'
+// If we were to run this code, we would currently expect to see an output in the console of 'How do you do?' due to the current value of name.
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable titled secret, no value is set at this time.
+// We declare a variable called code and sett the value to 123 as a number.
+// Then we create an if statement which tests if code is equal to 123 then sets the value of secret to 'super' as a string and code equal to code multiplied by 2.
+// Then we create a separate if statement setting the value of secret to 'duper' if code is greater than 250.
+// We finish off the code with a console.log of secret, which we would expect to give a value of 'super' due to the value of code currently being 246.
 
 //CODE
 /*
@@ -70,10 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable of isStudent and set it equal to true, as a boolean.
+// We declare a variable of age and set it equal to 34 as a number.
+// We declare a variable of zip and set it equal to 55407 as a number.
+// Then we create an if/else if statement, the first test it goes through is if isStudent is equal to true AND zip is greater than 80000, then it would console.log 'You're a student on the West Coast!'
+// The next step it tests is if isStudent is equal to false OR if age is less than 30, then it would console.log 'What are your hobbies?'
+// The next step it tests is if isStudent is equal to true, then it would console.log 'Welcome to Prime!'
+// The sections notes that if none of the above are true, then it would console.log 'How about the weather?'
+// If we were to run this code, we would expect to see an output of 'Welcome to Prime!' due to the first and second if statements not being met but the third one is due to the value of isStudent.
 
 //CODE
 /*
