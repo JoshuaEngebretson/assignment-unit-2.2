@@ -136,12 +136,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+  // Fix - colorOne = 'red' but the instructions state this should be 'blue'
+  // Should be - colorOne = 'blue'
 let colorOne = 'red';
+  // Fix - colorTwo = 'blue', but the instructions state this should be 'red'
+  // Should be - colorTwo = 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+    // Fix - missing setting the value of colorTwo equal to purple based on the instructions
+    // Should add in - colorTwo = 'purple'
 }
 */
 
@@ -153,6 +159,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+  // Fix - if line, current statement checks if temp is greater than 39 OR if time is greater or equal to 4, but instructions state this should be if both are true.
+  // Should be - if(temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -167,8 +175,14 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+    // Fix - console.log('no entry'), this will log 'no entry' if age is greater than or equal to minAge, but the instructions state this should log 'enter' if this is true
+    // Should be - console.log('enter')
   console.log('no entry');
 } else {
+    // Fix - console.log('enter'), this will log 'enter' if the first statement is not met (or age is less than minAge), but the instructions state this should log if age is greater than or equal to minAge and not the reverse.
+    // Should be - console.log('no entry') - This is assuming that we want a log if the first statement is not met, however the instructions above do not explicitly state that.
+    // OR
+    // Should be removed entirely starting at the else statement, due to this not being mentioned explicitly in the initial instructions.
   console.log('enter');
 }
 */
