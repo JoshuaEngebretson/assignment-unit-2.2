@@ -47,7 +47,7 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We declare a variable titled secret, no value is set at this time.
-// We declare a variable called code and sett the value to 123 as a number.
+// We declare a variable called code and set the value to 123 as a number.
 // Then we create an if statement which tests if code is equal to 123 then sets the value of secret to 'super' as a string and code equal to code multiplied by 2.
 // Then we create a separate if statement setting the value of secret to 'duper' if code is greater than 250.
 // We finish off the code with a console.log of secret, which we would expect to give a value of 'super' due to the value of code currently being 246.
