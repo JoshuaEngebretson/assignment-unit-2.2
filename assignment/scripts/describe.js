@@ -78,7 +78,7 @@ console.log(secret)
 // Then we create an if/else if statement, the first test it goes through is if isStudent is equal to true AND zip is greater than 80000, then it would console.log 'You're a student on the West Coast!'
 // The next step it tests is if isStudent is equal to false OR if age is less than 30, then it would console.log 'What are your hobbies?'
 // The next step it tests is if isStudent is equal to true, then it would console.log 'Welcome to Prime!'
-// The sections notes that if none of the above are true, then it would console.log 'How about the weather?'
+// The final step states that if none of the above are true, then it would console.log 'How about the weather?'
 // If we were to run this code, we would expect to see an output of 'Welcome to Prime!' due to the first and second if statements not being met but the third one is due to the value of isStudent.
 
 //CODE
@@ -186,4 +186,3 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
